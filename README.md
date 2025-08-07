@@ -9,6 +9,7 @@ A centered page title: "Aerospace Evolution Timeline"
 
 
 -> Navigation (<nav>) or using href tag
+
 A filter section (currently minimal) with a link to the Wikipedia page on Aerospace
 
 -> Main Section – #timeline
