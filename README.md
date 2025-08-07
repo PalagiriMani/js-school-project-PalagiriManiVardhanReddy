@@ -8,7 +8,7 @@ The HTML file includes the following structure:
 A centered page title: "Aerospace Evolution Timeline"
 
 
--> Navigation (<nav>) or using href tag
+-> Navigation (<nav>)
 
 A filter section (currently minimal) with a link to the Wikipedia page on Aerospace
 
