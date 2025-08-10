@@ -1,47 +1,18 @@
-# js-school-project-PalagiriManiVardhanReddy
-Aerospace Evolution Timeline – Static HTML Page
-This repository contains a static HTML file named index.html that showcases a timeline of major events in aerospace history.
+Goal :
+Implement a responsive and polished layout for the Aerospace Evolution Timeline.
+Use Flexbox and CSS Grid for layout, header styling, typography, a consistent colour scheme,
+placeholder markers for events, modal base styles, and responsive breakpoints for mobile, tablet, and desktop.
 
-The HTML file includes the following structure:
+Main changes:
+- Added styles.css with responsive design using Flexbox and Grid.
+- Updated index.html structure to include markers and support grid layout.
+- Added header styling, typography, and colour scheme.
+- Created placeholder styles for event markers.
+- Added base styles for modal (hidden by default).
+- Included breakpoints for <768px (mobile), 768–1023px (tablet), and ≥1024px (desktop).
 
--> Header
-A centered page title: "Aerospace Evolution Timeline"
-
-
--> Navigation or href anchor tag
-
-A filter section (currently minimal) with a link to the Wikipedia page on Aerospace
-
--> Main Section – #timeline
-This section contains 5 key aerospace events, each wrapped in an <article> tag with:
-
-Title (year and event)
-
-An image with <figure> and <figcaption>
-
-A brief description paragraph
-
- Events Included:
-1903 – The Wright brothers' first powered flight
-
-1947 – Chuck Yeager breaks the sound barrier (Bell X-1)
-
-1969 – Apollo 11 Moon landing
-
-1981 – Launch of the Space Shuttle Columbia
-
-2015 – SpaceX's Falcon 9 first reusable rocket landing
-
--> Footer/Extra
-An empty <div id="modal"> at the end (reserved for future features)
-
-->Images Used
-Some images use external URLs
-
-One image (reusable_aircraft.jpeg) must be present locally in the same folder as index.html
-
--> How to View
-Download or clone the repository.
-
-Open index.html in any modern web browser.
-
+How to test:
+1. Open index.html in a browser.
+2. Verify that the layout adjusts correctly for mobile, tablet, and desktop widths.
+3. Check that markers are visible for each timeline event.
+4. Confirm modal is hidden by default.
