@@ -115,3 +115,109 @@ article {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
+/* Modal Styling */
+#modal {
+  display: none; /* hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#modal-content {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#modal-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+/* ===== timeline markers created by JS ===== */
+#timeline-markers {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 12px 0 18px;
+}
+
+/* small pill-style markers */
+.timeline-js-marker {
+  background: white;
+  border: 1px solid #006635;
+  color: #006635;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.timeline-js-marker:focus { outline: 2px solid #660038; }
+
+/* modal inner content */
+#modal .modal-inner {
+  max-width: 900px;
+  width: 92%;
+  margin: 6% auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+/* close button */
+.modal-close {
+  position: absolute;
+  right: 14px;
+  top: 8px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* modal layout */
+.modal-body {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.modal-image {
+  max-width: 240px;
+  width: 35%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.modal-text { width: 65%; }
+.modal-title { margin-bottom: 6px; color: #660038; }
+.modal-year { font-size: 0.95rem; color: #666; margin-bottom: 10px; }
+.modal-desc { line-height: 1.5; }
+
+/* responsive modal stacking */
+@media (max-width: 700px) {
+  .modal-body {
+    flex-direction: column;
+  }
+  .modal-image, .modal-text { width: 100%; }
+}
+
