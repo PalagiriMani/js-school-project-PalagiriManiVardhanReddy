@@ -45,3 +45,13 @@ Download or clone the repository.
 
 Open index.html in any modern web browser.
 
+
+
+
+events.json file:
+
+In this file we mentioned about what message should be displayed when we click on the button and we provide image URL and the content 
+
+
+script.js file:
+This file is required because , this makes the web page responsive such as user clicks and the pop up messages etc...
